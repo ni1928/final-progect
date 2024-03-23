@@ -33,7 +33,7 @@ body {
 }
 
 .logo-text {
-	background-image: url(../images/image1.webp);
+	background-image: url(../images/logo.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	color: transparent;
@@ -126,7 +126,7 @@ section {
 .first-section-wrapper {
 	display: flex;
 	justify-content: end;
-	background-image: url(../images/image1.webp);
+	background-image: url(../images/image.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
