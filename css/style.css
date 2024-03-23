@@ -33,7 +33,7 @@ body {
 }
 
 .logo-text {
-	background-image: url(/images/image1.webp);
+	background-image: url(../images/image1.webp);
 	background-repeat: no-repeat;
 	background-position: center;
 	color: transparent;
