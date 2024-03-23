@@ -2,10 +2,10 @@ body {
 	width: 100%;
 	height: 100vh;
 }
-.container{
+.container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-gap:10px
+	grid-gap: 10px;
 }
 .header-wrapper {
 	/* position: fixed; */
@@ -43,7 +43,6 @@ body {
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
-	
 }
 
 .violet-letters {
@@ -54,7 +53,7 @@ body {
 	background-color: #ffff;
 	overflow: hidden;
 }
-.nav-list-container{
+.nav-list-container {
 	display: flex;
 	justify-content: center;
 	flex-grow: 1;
@@ -75,7 +74,7 @@ body {
 	text-align: center;
 }
 
-.nav-list >li a {
+.nav-list > li a {
 	display: block;
 	color: #1a2b6d;
 	font-family: spinnaker;
@@ -84,7 +83,6 @@ body {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	
 }
 
 .dropdown {
@@ -113,7 +111,6 @@ body {
 	background-color: #6ae8ef;
 	color: white;
 	border-radius: 10px;
-
 }
 
 #services:hover .dropdown {
@@ -129,7 +126,7 @@ section {
 .first-section-wrapper {
 	display: flex;
 	justify-content: end;
-	background-image: url(/images/image1.webp);
+	background-image: url(../images/image1.webp);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -140,7 +137,7 @@ section {
 .card {
 	position: relative;
 	left: 150px;
-	top:300px;
+	top: 300px;
 	width: 40%;
 	height: 70%;
 	background: #f2f2f2;
@@ -155,9 +152,9 @@ section {
 	text-align: left;
 }
 
-.card h1{
+.card h1 {
 	font-size: 25px;
-	font-family: 'spinnaker';
+	font-family: "spinnaker";
 	color: #1a2b6d;
 	font-weight: 400;
 	line-height: 40px;
@@ -178,12 +175,11 @@ section {
 
 .card p {
 	width: 70%;
-	font-family: 'Regencie Alt';
+	font-family: "Regencie Alt";
 	font-weight: 400;
 	line-height: 18px;
 	color: #666;
 	margin-bottom: 2em;
-
 }
 
 button {
@@ -232,7 +228,7 @@ button:hover {
 	background: #f2f2f2;
 	margin: 10px 20px;
 }
-.second-card-content{
+.second-card-content {
 	padding: 20px;
 	text-align: left;
 }
@@ -250,39 +246,39 @@ button:hover {
 }
 .second-section-header-text {
 	font-size: 25px;
-	font-family: 'spinnaker';
+	font-family: "spinnaker";
 	color: #1a2b6d;
 	font-weight: 400;
 	line-height: 30px;
 	margin-bottom: 0.5em;
 }
 .read-more-container {
-    position: relative;
-    margin-top: 20px;
-  }
+	position: relative;
+	margin-top: 20px;
+}
 #short-text,
 #more-text {
- 	font-family: 'heltvica light';
- 	font-size: 14px;
-	font-family: 'spinnaker';
+	font-family: "heltvica light";
+	font-size: 14px;
+	font-family: "spinnaker";
 	color: #1a2b6d;
 	font-weight: 400;
 	line-height: 20px;
 	margin-bottom: 1em;
 }
 .read-more-content {
-    display: none;
-    overflow: hidden;
-  }
+	display: none;
+	overflow: hidden;
+}
 
 .read-more-btn {
-    cursor: pointer;
-    color: blue;
-    background: none;
-    border: none;
-    padding: 0;
-    font-size: 1em;
-  }
+	cursor: pointer;
+	color: blue;
+	background: none;
+	border: none;
+	padding: 0;
+	font-size: 1em;
+}
 
 /* button section */
 
@@ -340,9 +336,9 @@ h2 {
 }
 
 /* responsive design */
- @media only screen and (max-width: 768px) {
-	.container{
-		width:100%;
+@media only screen and (max-width: 768px) {
+	.container {
+		width: 100%;
 		background-color: green;
 	}
-	}
+}
